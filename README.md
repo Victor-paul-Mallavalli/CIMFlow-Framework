@@ -12,15 +12,15 @@ This framework takes a deep learning model (e.g., ResNet18 in ONNX format), comp
 
 ## 🚀 Features
 
-- ✅ ONNX Model Graph Parsing
-- ✅ Stage-Based Partitioning (ResNet Stages)
-- ✅ Intermediate Representation (IR) Generation
-- ✅ Loop Tiling & ISA Encoding
-- ✅ Per-Core Simulation with Tensor Routing
-- ✅ Multi-Core Execution Controller
-- ✅ Performance Logging (Cycles, Ops)
-- ✅ Energy & Latency Estimation
-- ✅ Tensor I/O Handling (Inputs & Outputs)
+-  ONNX Model Graph Parsing
+-  Stage-Based Partitioning (ResNet Stages)
+-  Intermediate Representation (IR) Generation
+-  Loop Tiling & ISA Encoding
+-  Per-Core Simulation with Tensor Routing
+-  Multi-Core Execution Controller
+-  Performance Logging (Cycles, Ops)
+-  Energy & Latency Estimation
+-  Tensor I/O Handling (Inputs & Outputs)
 
 ---
 
