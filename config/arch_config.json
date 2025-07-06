@@ -1,0 +1,17 @@
+{
+  "hardware": {
+    "chip": {
+      "core_num": 64,
+      "global_size": 16777216
+    },
+    "core": {
+      "cim_comp_unit": 16,
+      "local_mem": 524288
+    },
+    "unit": {
+      "macro": [512, 64]
+    },
+    "noC_bandwidth": 16,
+    "pipeline_stages": 3
+  }
+}

@@ -1,0 +1,7 @@
+Initializer resnetv22_batchnorm0_gamma
+Initializer resnetv22_batchnorm0_beta
+Initializer resnetv22_batchnorm0_running_mean
+Initializer resnetv22_batchnorm0_running_var
+Initializer resnetv22_conv0_weight
+BatchNormalization resnetv22_batchnorm0_fwd
+Conv resnetv22_conv0_fwd

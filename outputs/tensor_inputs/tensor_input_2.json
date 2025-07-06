@@ -1,0 +1,206 @@
+{
+    "resnetv22_stage1_batchnorm1_fwd": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_stage1_conv0_fwd": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_stage1_batchnorm3_gamma": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_stage1_activation0": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_stage1_batchnorm3_beta": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_stage1_batchnorm0_fwd": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_stage1_batchnorm2_fwd": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_stage1_batchnorm2_beta": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_stage1_batchnorm3_running_mean": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_stage1_batchnorm0_beta": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_stage1_conv1_weight": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_stage1_batchnorm2_running_var": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_stage1_conv2_fwd": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_stage1_batchnorm3_running_var": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_stage1_batchnorm1_running_var": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_stage1_conv0_weight": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_stage1_batchnorm1_gamma": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_stage1_conv3_weight": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_stage1_conv1_fwd": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_stage1__plus1": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_stage1_batchnorm0_running_mean": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_stage1_batchnorm1_beta": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_stage1_batchnorm0_gamma": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_stage1_batchnorm2_running_mean": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_stage1_batchnorm3_fwd": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_stage1_activation2": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_stage1_batchnorm0_running_var": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_stage1_activation1": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_stage1_batchnorm1_running_mean": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_stage1_conv3_fwd": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_stage1_batchnorm2_gamma": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_stage1_activation3": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_stage1__plus0": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_stage1_conv2_weight": [
+        1,
+        2,
+        3,
+        4
+    ]
+}

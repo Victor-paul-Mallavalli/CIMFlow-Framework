@@ -1,0 +1,4 @@
+=== Performance Report ===
+Total Cycles: 112
+CIM Usage: 16
+==========================

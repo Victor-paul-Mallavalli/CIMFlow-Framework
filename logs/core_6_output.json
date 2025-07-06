@@ -1,0 +1,26 @@
+{
+    "resnetv22_dense0_bias": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_dense0_fwd": [
+        1,
+        4,
+        9,
+        16
+    ],
+    "resnetv22_dense0_weight": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_flatten0_reshape0": [
+        1,
+        2,
+        3,
+        4
+    ]
+}

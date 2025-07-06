@@ -1,0 +1,92 @@
+{
+    "resnetv22_batchnorm1_gamma": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_relu0_fwd": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_batchnorm2_beta": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_batchnorm2_fwd": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_pool1_fwd": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_batchnorm2_running_mean": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_batchnorm2_gamma": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_batchnorm1_fwd": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_batchnorm1_beta": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_batchnorm2_running_var": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_batchnorm1_running_var": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_batchnorm1_running_mean": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_pool0_fwd": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "reshape_attr_tensor164": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "resnetv22_relu1_fwd": [
+        1,
+        2,
+        3,
+        4
+    ]
+}

@@ -1,0 +1,5 @@
+=== Performance Report ===
+Total Cycles: 544
+CIM Usage: 64
+VEC Usage: 96
+==========================

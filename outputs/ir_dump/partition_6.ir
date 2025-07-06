@@ -1,0 +1,4 @@
+Initializer resnetv22_dense0_weight
+Initializer resnetv22_dense0_bias
+Reshape resnetv22_flatten0_reshape0
+Gemm resnetv22_dense0_fwd

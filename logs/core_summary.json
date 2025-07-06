@@ -1,0 +1,74 @@
+{
+  "summary": [
+    {
+      "core": "core_0",
+      "cycles": 112,
+      "CIM": 16,
+      "VEC": 0,
+      "SCALAR": 0,
+      "energy_pJ": 56.0,
+      "latency_cycles": 112
+    },
+    {
+      "core": "core_1",
+      "cycles": 240,
+      "CIM": 0,
+      "VEC": 32,
+      "SCALAR": 0,
+      "energy_pJ": 38.4,
+      "latency_cycles": 240
+    },
+    {
+      "core": "core_2",
+      "cycles": 544,
+      "CIM": 64,
+      "VEC": 96,
+      "SCALAR": 0,
+      "energy_pJ": 339.2,
+      "latency_cycles": 544
+    },
+    {
+      "core": "core_3",
+      "cycles": 576,
+      "CIM": 80,
+      "VEC": 96,
+      "SCALAR": 0,
+      "energy_pJ": 395.2,
+      "latency_cycles": 576
+    },
+    {
+      "core": "core_4",
+      "cycles": 576,
+      "CIM": 80,
+      "VEC": 96,
+      "SCALAR": 0,
+      "energy_pJ": 395.2,
+      "latency_cycles": 576
+    },
+    {
+      "core": "core_5",
+      "cycles": 576,
+      "CIM": 80,
+      "VEC": 96,
+      "SCALAR": 0,
+      "energy_pJ": 395.2,
+      "latency_cycles": 576
+    },
+    {
+      "core": "core_6",
+      "cycles": 64,
+      "CIM": 16,
+      "VEC": 0,
+      "SCALAR": 0,
+      "energy_pJ": 56.0,
+      "latency_cycles": 64
+    }
+  ],
+  "totals": {
+    "cycles": 2688,
+    "CIM": 336,
+    "VEC": 416,
+    "SCALAR": 0
+  },
+  "total_energy_pJ": 1675.2
+}

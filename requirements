@@ -1,0 +1,14 @@
+git config --global user.name "Your Name"
+got 0-
+
+echo "# CIMFlow_Framework" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Victor-paul-Mallavalli/CIMFlow_Framework.git
+git push -u origin main
+
+git remote add origin https://github.com/Victor-paul-Mallavalli/CIMFlow_Framework.git
+git branch -M main
+git push -u origin main

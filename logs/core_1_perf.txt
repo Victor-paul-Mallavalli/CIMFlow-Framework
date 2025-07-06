@@ -1,0 +1,4 @@
+=== Performance Report ===
+Total Cycles: 240
+VEC Usage: 32
+==========================
