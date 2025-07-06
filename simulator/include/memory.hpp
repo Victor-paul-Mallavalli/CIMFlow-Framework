@@ -22,4 +22,4 @@ private:
     std::unordered_map<int, int> memory;
 };
 
-#endif // MEMORY_HPP
+#endif
