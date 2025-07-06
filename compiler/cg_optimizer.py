@@ -73,16 +73,16 @@ class CGOptimizer:
         return self.partitions, self.partition_map
 
     def print_partitions(self):
-        print(f"\n[🔧 CGOptimizer] Memory limit per partition: {self.memory_limit // 1024} KB")
+        print(f"\n[CGOptimizer] Memory limit per partition: {self.memory_limit // 1024} KB")
         for i, part in enumerate(self.partitions):
             mvm_count = sum(1 for node in part if self.graph.nodes[node].get("is_mvm"))
-            print(f"🧩 Partition {i} | Ops: {len(part)} | MVM Ops: {mvm_count}")
+            print(f"Partition {i} | Ops: {len(part)} | MVM Ops: {mvm_count}")
             print(f"   └─ {part}")
 
     def save_partition_map(self, path="partition_map.json"):
         with open(path, "w") as f:
             json.dump(self.partition_map, f, indent=2)
-        print(f"[💾] Partition map saved to {path}")
+        print(f"[] Partition map saved to {path}")
 
 if __name__ == "__main__":
     from compiler.graph_builder import ComputationGraph
