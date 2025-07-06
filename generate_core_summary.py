@@ -62,14 +62,14 @@ def main():
     with open(SUMMARY_FILE, "w") as out:
         out.write("=== Multi-Core Simulation Summary ===\n")
         for entry in summary:
-            out.write(f"\n[🔧 {entry['core']}]\n")
+            out.write(f"\n[ {entry['core']}]\n")
             out.write(f"  Latency (Cycles): {entry['latency_cycles']}\n")
             out.write(f"  CIM Ops         : {entry['CIM']}\n")
             out.write(f"  VEC Ops         : {entry['VEC']}\n")
             out.write(f"  SCALAR Ops      : {entry['SCALAR']}\n")
             out.write(f"  Estimated Energy: {entry['energy_pJ']:.2f} pJ\n")
 
-        out.write("\n[⚙️ Aggregated Stats]\n")
+        out.write("\n[ Aggregated Stats]\n")
         out.write(f"  Total Cycles    : {max_cycles}\n")
         out.write(f"  Total CIM Ops   : {totals['CIM']}\n")
         out.write(f"  Total VEC Ops   : {totals['VEC']}\n")
@@ -83,8 +83,8 @@ def main():
     with open(SUMMARY_JSON, "w") as jf:
         json.dump({"summary": summary, "totals": totals, "total_energy_pJ": total_energy}, jf, indent=2)
 
-    print(f"\n📄 Summary written to: {SUMMARY_FILE}")
-    print(f"📊 JSON written to: {SUMMARY_JSON}")
+    print(f"\n Summary written to: {SUMMARY_FILE}")
+    print(f" JSON written to: {SUMMARY_JSON}")
 
 if __name__ == "__main__":
     main()
