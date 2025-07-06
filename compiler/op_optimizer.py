@@ -39,7 +39,7 @@ class OperatorOptimizer:
     def optimize(self):
         files = [f for f in os.listdir(self.ir_dir) if f.endswith(".ir")]
         if not files:
-            print(f"[⚠️] No .ir files found in {self.ir_dir}")
+            print(f"[] No .ir files found in {self.ir_dir}")
             return
 
         for file in files:
@@ -51,7 +51,7 @@ class OperatorOptimizer:
             with open(out_path, "w") as f:
                 f.write("\n".join(tiled_ir))
 
-            print(f"[✅ OP-TILER] {file} → {out_file}")
+            print(f"[ OP-TILER] {file} → {out_file}")
 
 if __name__ == "__main__":
     tiler = OperatorOptimizer()
