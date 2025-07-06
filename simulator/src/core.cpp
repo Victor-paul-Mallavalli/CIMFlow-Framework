@@ -24,7 +24,7 @@ void Core::load_instructions() {
 void Core::load_tensor_mem(const std::string& path) {
     std::ifstream in(path);
     if (!in.is_open()) {
-        std::cerr << "❌ Could not open input tensor file: " << path << "\n";
+        std::cerr << "Could not open input tensor file: " << path << "\n";
         return;
     }
 
@@ -62,7 +62,7 @@ void Core::run(const std::string& log_file, const std::string& output_file) {
     perf.report();
     perf.report_to_file(log_file);
     save_tensor_mem(output_file);
-    std::cout << "✅ Saved output tensor to " << output_file << "\n";
+    std::cout << "Saved output tensor to " << output_file << "\n";
 }
 
 void Core::decode(const std::string& inst) {
@@ -100,7 +100,7 @@ void Core::execute(const std::string& opcode, const std::vector<std::string>& op
         perf.count("VEC");
 
         if (operands.size() < 2 || tensor_mem.find(operands[0]) == tensor_mem.end() || tensor_mem.find(operands[1]) == tensor_mem.end()) {
-            std::cerr << "❌ Missing operands for VEC_ADD\n";
+            std::cerr << "Missing operands for VEC_ADD\n";
             return;
         }
 
@@ -108,7 +108,7 @@ void Core::execute(const std::string& opcode, const std::vector<std::string>& op
         const auto& b = tensor_mem[operands[1]];
 
         if (a.size() != b.size()) {
-            std::cerr << "⚠️ VEC_ADD size mismatch: " << operands[0] << " (" << a.size() << ") vs " << operands[1] << " (" << b.size() << ")\n";
+            std::cerr << "VEC_ADD size mismatch: " << operands[0] << " (" << a.size() << ") vs " << operands[1] << " (" << b.size() << ")\n";
         }
 
         std::vector<int> result;
@@ -122,7 +122,7 @@ void Core::execute(const std::string& opcode, const std::vector<std::string>& op
         perf.count("VEC");
 
         if (operands.empty() || tensor_mem.find(operands[0]) == tensor_mem.end()) {
-            std::cerr << "❌ Missing operand for VEC_RELU\n";
+            std::cerr << "Missing operand for VEC_RELU\n";
             return;
         }
 
@@ -138,7 +138,7 @@ void Core::execute(const std::string& opcode, const std::vector<std::string>& op
         perf.count("CIM");
 
         if (operands.size() < 2 || tensor_mem.find(operands[0]) == tensor_mem.end() || tensor_mem.find(operands[1]) == tensor_mem.end()) {
-            std::cerr << "❌ Missing operands for CIM_MVM\n";
+            std::cerr << "Missing operands for CIM_MVM\n";
             return;
         }
 
@@ -146,7 +146,7 @@ void Core::execute(const std::string& opcode, const std::vector<std::string>& op
         const auto& x = tensor_mem[operands[1]];
 
         if (w.size() != x.size()) {
-            std::cerr << "⚠️ CIM_MVM size mismatch: " << operands[0] << " (" << w.size() << ") vs " << operands[1] << " (" << x.size() << ")\n";
+            std::cerr << "CIM_MVM size mismatch: " << operands[0] << " (" << w.size() << ") vs " << operands[1] << " (" << x.size() << ")\n";
         }
 
         std::vector<int> result;
@@ -159,7 +159,7 @@ void Core::execute(const std::string& opcode, const std::vector<std::string>& op
     else if (opcode == "SC_ADDI") {
         perf.count("SCALAR");
         if (operands.size() < 2) {
-            std::cerr << "❌ Invalid SC_ADDI operands\n";
+            std::cerr << "Invalid SC_ADDI operands\n";
             return;
         }
 
