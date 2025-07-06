@@ -25,7 +25,7 @@ def generate_tensor_inputs(tensor_map):
         path = os.path.join(OUT_DIR, f"tensor_input_{pid}.json")
         with open(path, "w") as f:
             json.dump(input_data, f, indent=4)
-        print(f"✅ Generated: {path}")
+        print(f" Generated: {path}")
 
 tensor_map = extract_tensor_names(ISA_DIR)
 generate_tensor_inputs(tensor_map)
