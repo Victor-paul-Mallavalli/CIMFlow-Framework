@@ -78,7 +78,8 @@ def main():
         out.write(f"  Total Energy    : {total_energy:.2f} pJ\n")
         if totals["cycles"]:
             out.write(f"  Ops per Cycle   : {ops_total / totals['cycles']:.2f}\n")
-
+            
+    totals["cycles"] = max_cycles
     with open(SUMMARY_JSON, "w") as jf:
         json.dump({"summary": summary, "totals": totals, "total_energy_pJ": total_energy}, jf, indent=2)
 
