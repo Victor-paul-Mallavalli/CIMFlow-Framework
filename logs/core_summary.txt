@@ -1,34 +1,34 @@
 === Multi-Core Simulation Summary ===
 
-[🔧 core_0]
+[core_0]
   Latency (Cycles): 112
   CIM Ops         : 16
   VEC Ops         : 0
   SCALAR Ops      : 0
   Estimated Energy: 56.00 pJ
 
-[🔧 core_1]
+[core_1]
   Latency (Cycles): 240
   CIM Ops         : 0
   VEC Ops         : 32
   SCALAR Ops      : 0
   Estimated Energy: 38.40 pJ
 
-[🔧 core_2]
+[core_2]
   Latency (Cycles): 544
   CIM Ops         : 64
   VEC Ops         : 96
   SCALAR Ops      : 0
   Estimated Energy: 339.20 pJ
 
-[🔧 core_3]
+[core_3]
   Latency (Cycles): 576
   CIM Ops         : 80
   VEC Ops         : 96
   SCALAR Ops      : 0
   Estimated Energy: 395.20 pJ
 
-[🔧 core_4]
+[core_4]
   Latency (Cycles): 576
   CIM Ops         : 80
   VEC Ops         : 96
@@ -42,14 +42,14 @@
   SCALAR Ops      : 0
   Estimated Energy: 395.20 pJ
 
-[🔧 core_6]
+[core_6]
   Latency (Cycles): 64
   CIM Ops         : 16
   VEC Ops         : 0
   SCALAR Ops      : 0
   Estimated Energy: 56.00 pJ
 
-[⚙️ Aggregated Stats]
+[Aggregated Stats]
   Total Cycles    : 576
   Total CIM Ops   : 336
   Total VEC Ops   : 416
