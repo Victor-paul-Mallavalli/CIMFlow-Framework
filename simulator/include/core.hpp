@@ -6,26 +6,20 @@
 #include <unordered_map>
 #include "memory.hpp"
 #include "perf_counter.hpp"
-//#include "utils.hpp"
-#include "compute_units.hpp"  // Define CIMUnit, VecUnit, ScalarUnit here
+#include "compute_units.hpp"
 
 class Core {
 public:
     Core(const std::string& isa_path);
 
-    // Set input tensor file path (e.g., from IR dump)
     void set_input_tensor_path(const std::string& path);
 
-    // Load .isa into instruction buffer
     void load_instructions();
 
-    // Load JSON tensor input
     void load_tensor_mem(const std::string& path);
 
-    // Save output JSON
     void save_tensor_mem(const std::string& path);
 
-    // Run full decode-execute loop
     void run(const std::string& log_file, const std::string& output_file);
 
 private:
