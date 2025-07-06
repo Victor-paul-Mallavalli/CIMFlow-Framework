@@ -19,15 +19,15 @@ void process_core(const fs::path& isa_path, int core_id, const std::string& log_
     std::string perf_file   = log_dir + "/core_" + std::to_string(core_id) + "_perf.txt";
     std::string tensor_input_file = tensor_dir + "/tensor_input_" + std::to_string(core_id) + ".json";
 
-    std::cout << "\n🔧 Launching Core " << core_id << " → " << isa_file << "\n";
+    std::cout << "\nLaunching Core " << core_id << " → " << isa_file << "\n";
 
     Core core(isa_file);
 
     if (fs::exists(tensor_input_file)) {
         core.set_input_tensor_path(tensor_input_file);
-        std::cout << "📥 Using input tensor: " << tensor_input_file << "\n";
+        std::cout << "Using input tensor: " << tensor_input_file << "\n";
     } else {
-        std::cerr << "⚠️  Tensor input file not found for core " << core_id << ": " << tensor_input_file << "\n";
+        std::cerr << "Tensor input file not found for core " << core_id << ": " << tensor_input_file << "\n";
     }
 
     core.load_instructions();
@@ -76,6 +76,6 @@ int main(int argc, char** argv) {
         thread.join();
     }
 
-    std::cout << "\n✅ Multi-core simulation completed.\n";
+    std::cout << "\nMulti-core simulation completed.\n";
     return 0;
 }
