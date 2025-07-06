@@ -65,7 +65,7 @@
     }
   ],
   "totals": {
-    "cycles": 2688,
+    "cycles": 576,
     "CIM": 336,
     "VEC": 416,
     "SCALAR": 0
