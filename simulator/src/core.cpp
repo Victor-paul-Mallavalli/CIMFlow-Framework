@@ -34,7 +34,7 @@ void Core::load_tensor_mem(const std::string& path) {
         tensor_mem[key] = value.get<std::vector<int>>();
     }
 
-    std::cout << "✅ Loaded input tensor from " << path << "\n";
+    std::cout << "Loaded input tensor from " << path << "\n";
     for (const auto& [k, v] : tensor_mem) {
         std::cout << "  " << k << ": ";
         for (int x : v) std::cout << x << " ";
