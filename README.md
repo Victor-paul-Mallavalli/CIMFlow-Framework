@@ -93,5 +93,14 @@ python main.py
 Feel free to fork and adapt for your own CIM/NPU designs. Contributions to improve accuracy or simulate analog noise, SRAM variability, or compiler optimizations are welcome.
 
 ---
+
+## 📬 Contact
+
+For any queries, feel free to connect with me:
+**Victor Paul Mallavalli**
+* Email: `victormallavalli7@gmail.com`
+* LinkedIn: `https://www.linkedin.com/in/victor-paul-mallavalli-a1a632299/`
+
+---
 ## 📜 License
 This project is for academic and research purposes only.
